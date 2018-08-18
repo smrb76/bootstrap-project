@@ -1,0 +1,29 @@
+body{
+    font-family: 'Raleway'  , 'sans-serif';
+    overflow-x: hidden;
+    position: relative;
+}
+::selection{
+    background: rgb(133, 76, 226);
+}
+.row{
+    padding: 10px 0;
+}
+hr{
+    width: 85px;
+}
+hr.icon::after{
+    content: \f123;
+    font-family: 'fontAwesome';
+    color: black;
+    top: -0.8em;
+    background-color: white;
+    position: relative;
+}
+#skills{
+    direction: rtl;
+    
+}
+ul>i{
+    background: palegreen;
+}

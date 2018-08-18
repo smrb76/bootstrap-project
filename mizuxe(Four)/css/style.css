@@ -1,0 +1,95 @@
+@font-face{
+    font-family: 'iranSans';
+    src: url('../fonts/IRANSansWeb(FaNum)_Light.woff2') format('woff2');
+}
+
+*{
+    font-family: 'iranSans';
+}
+.navbar{
+    background: #fff;
+    opacity: 0.9;
+    box-shadow: 2px 2px 5px #3292a6;
+}
+.nav-item{
+    margin: auto 18px;
+    font-size: 1.4rem;
+}
+#showcase{
+    position: relative;
+    margin-top: 105px;
+    background-image: url('../images/mountains.jpg');
+    min-height: 600px;
+    color: #fff;
+}
+#showcase .primary-overlay{
+    background-color: rgba(50, 146, 166, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.primary-overlay .col-lg-6{
+    margin-top: 85px;
+}
+.btn{
+    border-radius: 0;
+}
+#newsletter{
+    background-color: #111;
+}
+.card{
+    margin: 30px auto;
+    border-radius: 0;
+
+}
+.card-primary{
+    background-color: rgba(50, 146, 166, 0.8);
+}
+.btn-primary{
+    background-color: rgba(50, 146, 166, 0.8);
+}
+.text-primary{
+    color: rgba(50, 146, 166, 0.8);
+}
+.info-header{
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ddd solid;
+}
+#heading1 , #heading2 , #heading3{
+    cursor: pointer;
+}
+#accordion .card{
+    margin: 0 auto; 
+}
+#authors img{
+    margin-top: -50px;    
+}
+#authors .fa{
+    font-size: 25px;
+}
+#authors .card:hover{
+    background-color: #3292a6;
+    color: #fff;
+}
+#authors .card:hover .fa{
+    color: #fff;
+}
+.input-group-addon:not(:last-child){
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.input-group .form-control:not(:first-child){
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+footer{
+    background-color: #3292a6;
+}
+@media (max-width: 576px) {
+    nav .container {
+      width: 100%; 
+    } 
+}
